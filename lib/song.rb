@@ -20,4 +20,8 @@ class Song
     song.artist.name = stuff[0]
     # song
   end
+
+  def artist_name
+    
+  end
 end
