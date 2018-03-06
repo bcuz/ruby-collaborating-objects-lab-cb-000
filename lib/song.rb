@@ -29,7 +29,7 @@ class Song
     # undefined method `artist_name' for Song:Class
     # its right above...
     artist = self.artist_name(stuff[0])
-    artist.add_song(song)
+    # artist.add_song(song)
 
     # song
   end
