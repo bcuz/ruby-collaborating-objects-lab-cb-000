@@ -29,6 +29,7 @@ class Artist
       if !person.name
         artist = self.new(name)
         # artist.name = name
+        artist
       else
 
       end
