@@ -31,7 +31,7 @@ class Artist
         # artist.name = name
         # artist
       else
-
+        person.name
       end
     end
     ans[0]
