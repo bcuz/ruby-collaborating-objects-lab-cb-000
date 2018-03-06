@@ -7,5 +7,8 @@ end
 
 def files
 
+  # Dir["/path/to/search/**/*.rb"]
+  Dir["/path/to/search/**/*.rb"]
+
 end
 end
