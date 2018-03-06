@@ -16,6 +16,8 @@ def files
 end
 
 def import
-  self.files
+  self.files.each do |file|
+    
+  end
 end
 end
