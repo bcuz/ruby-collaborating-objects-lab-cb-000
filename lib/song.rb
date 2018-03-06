@@ -23,7 +23,7 @@ class Song
     # song
   end
 
-  def artist_name=(name)
+  def artist_name(name)
     obj = Artist.find_or_create_by_name(name)
 
     # how does this access the song though? return it?
