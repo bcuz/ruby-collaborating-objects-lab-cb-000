@@ -31,6 +31,7 @@ class Song
     artist = self.artist_name(stuff[0])
     puts artist
     # p self.artist_name
+    # artist isnt a class
     artist.add_song(song)
 
     # song
