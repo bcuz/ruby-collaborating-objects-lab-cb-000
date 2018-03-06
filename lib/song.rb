@@ -19,6 +19,7 @@ class Song
     song = self.new(stuff[1])
 
     # dont understant the error
+    undefined method `artist_name' for Song:Class
     artist = self.artist_name(stuff[0])
     # self.artist_name(stuff[0])
     artist.add_song(song)
