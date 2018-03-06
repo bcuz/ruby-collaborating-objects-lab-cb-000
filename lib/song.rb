@@ -16,7 +16,7 @@ class Song
     # when does a song get an artist?
 
     # confused
-    # like it doenst have a setter.
+    # like it doenst have a setter. but it does.
     song.artist.name = stuff[0]
     # song
   end
