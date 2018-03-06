@@ -24,12 +24,12 @@ class Song
     # break up the filename
     stuff = file.split(' - ')
     song = self.new(stuff[1])
-    puts stuff
+    # puts stuff
 
     # dont understant the error
     # its right above...
     artist = self.artist_name(stuff[0])
-    puts artist
+    # puts artist
     # p self.artist_name
     # artist isnt a class
     artist.add_song(song)
