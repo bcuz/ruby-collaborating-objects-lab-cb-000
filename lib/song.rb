@@ -17,11 +17,12 @@ class Song
 
     # confused
     # like it doenst have a setter. but it does.
-    song.artist.name = stuff[0]
+    # song.artist.name = stuff[0]
     # song
   end
 
   def artist_name=(name)
+
 
   end
 end
