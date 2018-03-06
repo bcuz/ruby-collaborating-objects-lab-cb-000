@@ -32,7 +32,7 @@ class Artist
         person
       end
     end
-    p ans[0]
+    ans[0]
 
   end
 
