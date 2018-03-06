@@ -10,7 +10,9 @@ def files
   # Dir["/path/to/search/**/*.rb"]
   # didnt have to
   # cut = @path[/.*\//]
-  Dir[@path + "/*"]
+  raw = Dir[@path + "/*"]
+
+  raw.collect {|file| File.basename file }
 
 
 
