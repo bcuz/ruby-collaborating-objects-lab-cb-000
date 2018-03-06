@@ -13,8 +13,8 @@ def files
   raw = Dir[@path + "/*"]
 
   raw.collect {|file| File.basename file }
-
-
+end
+def import
 
 end
 end
