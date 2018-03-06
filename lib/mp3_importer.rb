@@ -16,6 +16,6 @@ def files
 end
 
 def import
-
+  self.files
 end
 end
