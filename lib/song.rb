@@ -12,6 +12,8 @@ class Song
     stuff = file.split(' - ')
     song = self.new(stuff[1])
 
+    # when does a song get an artist?
+
     # confused
     song.artist.name = stuff[0]
     song
