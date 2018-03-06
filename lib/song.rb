@@ -24,6 +24,7 @@ class Song
     # break up the filename
     stuff = file.split(' - ')
     song = self.new(stuff[1])
+    puts stuff
 
     # dont understant the error
     # its right above...
