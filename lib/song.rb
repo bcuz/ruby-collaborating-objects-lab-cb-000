@@ -18,6 +18,8 @@ class Song
     # confused
     # like it doenst have a setter. but it does.
     artist = artist_name(stuff[0])
+    artist.add_song(song)
+    
     # song
   end
 
