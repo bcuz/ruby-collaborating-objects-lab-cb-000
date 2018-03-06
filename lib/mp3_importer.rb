@@ -6,6 +6,6 @@ def initialize(path)
 end
 
 def file
-  
+
 end
 end
