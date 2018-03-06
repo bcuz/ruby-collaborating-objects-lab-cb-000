@@ -16,7 +16,7 @@ class Song
     # when does a song get an artist?
 
     # confused
-    song.artist.name = stuff[0]
+    # song.artist.name = stuff[0]
     # song
   end
 end
