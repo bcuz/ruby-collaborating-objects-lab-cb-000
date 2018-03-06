@@ -14,6 +14,7 @@ def files
 
   raw.collect {|file| File.basename file }
 end
+
 def import
 
 end
