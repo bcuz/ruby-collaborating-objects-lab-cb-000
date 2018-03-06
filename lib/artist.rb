@@ -28,8 +28,6 @@ class Artist
     ans = self.all.collect do |person|
       if !person.name
         artist = self.new(name)
-        # artist.name = name
-        # artist
       else
         person
       end
