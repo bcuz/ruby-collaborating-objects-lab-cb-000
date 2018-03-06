@@ -28,7 +28,7 @@ class Song
     # dont understant the error
     # its right above...
     artist = self.artist_name(stuff[0])
-    puts artist.name
+    puts artist
     # p self.artist_name
     artist.add_song(song)
 
