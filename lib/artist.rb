@@ -34,6 +34,6 @@ class Artist
 
       end
     end
-    artist
+    # artist
   end
 end
