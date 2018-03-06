@@ -14,7 +14,7 @@ class Song
   # end
 
   def self.artist_name(name)
-      puts Artist.find_or_create_by_name(name)
+      p Artist.find_or_create_by_name(name)
     #
     # x
 
