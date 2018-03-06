@@ -34,4 +34,8 @@ class Artist
     end
     ans[0]
   end
+
+  def print_songs
+    
+  end
 end
