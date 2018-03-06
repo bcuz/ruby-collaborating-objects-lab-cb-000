@@ -17,6 +17,6 @@ class Artist
   end
 
   def save
-    
+
   end
 end
