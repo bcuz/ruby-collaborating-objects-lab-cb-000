@@ -28,6 +28,8 @@ class Artist
     self.all.each do |person|
       if !person.name
         artist = self.new
+      else
+        
       end
     end
   end
