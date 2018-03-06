@@ -27,7 +27,7 @@ class Artist
   def self.find_or_create_by_name(name)
     self.all.each do |person|
       if !person.name
-        
+        artist = self.new
       end
     end
   end
