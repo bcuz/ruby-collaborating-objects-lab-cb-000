@@ -30,7 +30,7 @@ class Song
     # its right above...
     artist = self.artist_name(stuff[0])
     # p self.artist_name
-    # artist.add_song(song)
+    artist.add_song(song)
 
     # song
   end
