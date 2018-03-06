@@ -9,7 +9,7 @@ def files
 
   # Dir["/path/to/search/**/*.rb"]
   cut = @path[/.*\//]
-  Dir["/path/to/search/**/*.mp3"]
+  Dir[cut + "*.mp3"]
 
 end
 end
