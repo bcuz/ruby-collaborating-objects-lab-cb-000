@@ -30,7 +30,7 @@ class Artist
         artist = self.new
         artist
       else
-        
+
       end
     end
   end
