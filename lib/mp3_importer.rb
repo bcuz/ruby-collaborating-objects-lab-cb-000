@@ -5,7 +5,7 @@ def initialize(path)
 
 end
 
-def file
+def files
 
 end
 end
