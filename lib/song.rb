@@ -17,7 +17,7 @@ class Song
 
     # confused
     # like it doenst have a setter. but it does.
-    # song.artist.name = stuff[0]
+    artist = artist_name(stuff[0])
     # song
   end
 
