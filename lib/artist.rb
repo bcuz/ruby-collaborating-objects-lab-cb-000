@@ -25,7 +25,7 @@ class Artist
   end
 
   def self.find_or_create_by_name(name)
-    self.all.each do |person|
+    ans = self.all.collect do |person|
       if !person.name
         artist = self.new(name)
         # artist.name = name
@@ -34,6 +34,6 @@ class Artist
 
       end
     end
-    artist
+    ans[0]
   end
 end
