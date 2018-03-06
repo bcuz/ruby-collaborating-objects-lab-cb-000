@@ -20,10 +20,7 @@ class Song
     stuff = file.split(' - ')
     song = self.new(stuff[1])
 
-    # when does a song get an artist?
-
-    # confused
-    # like it doenst have a setter. but it does.
+    # dont understant the error
     artist = self.artist_name(stuff[0])
     artist.add_song(song)
 
