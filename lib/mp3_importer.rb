@@ -4,4 +4,8 @@ def initialize(path)
   @path = path
 
 end
+
+def file
+  
+end
 end
