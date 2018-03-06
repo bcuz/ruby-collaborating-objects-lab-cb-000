@@ -8,6 +8,7 @@ end
 def files
 
   # Dir["/path/to/search/**/*.rb"]
+  # didnt have to
   cut = @path[/.*\//]
   p Dir[cut + "*.mp3"]
 
