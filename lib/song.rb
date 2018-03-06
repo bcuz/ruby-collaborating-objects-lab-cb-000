@@ -11,6 +11,8 @@ class Song
     # break up the filename
     stuff = file.split(' - ')
     song = self.new(stuff[1])
-    self.artist.name = stuff[0]
+
+    # confused
+    song.artist.name = stuff[0]
   end
 end
