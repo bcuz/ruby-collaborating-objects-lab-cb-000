@@ -8,6 +8,13 @@ class Song
 
   end
 
+  def artist_name(name)
+    obj = Artist.find_or_create_by_name(name)
+
+    # how does this access the song though? return it?
+
+  end
+
   def self.new_by_filename(file)
     # break up the filename
     stuff = file.split(' - ')
@@ -23,10 +30,5 @@ class Song
     # song
   end
 
-  def artist_name(name)
-    obj = Artist.find_or_create_by_name(name)
-
-    # how does this access the song though? return it?
-
-  end
+  
 end
